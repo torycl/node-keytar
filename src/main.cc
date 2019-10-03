@@ -48,7 +48,7 @@ NAN_METHOD(FindPassword) {
   }
 }
 
-void Init(Handle<Object> exports) {
+void Init(Local<Object> exports) {
   Nan::SetMethod(exports, "getPassword", GetPassword);
   Nan::SetMethod(exports, "addPassword", AddPassword);
   Nan::SetMethod(exports, "deletePassword", DeletePassword);

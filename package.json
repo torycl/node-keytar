@@ -1,8 +1,8 @@
 {
   "main": "./lib/keytar.js",
-  "name": "keytar",
+  "name": "keytar3",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
-  "version": "3.0.2",
+  "version": "3.0.6",
   "licenses": [
     {
       "type": "MIT",
@@ -32,15 +32,15 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.9.0",
     "grunt-cli": "~0.1.7",
+    "grunt-coffeelint": "0.0.6",
+    "grunt-contrib-coffee": "~0.9.0",
     "grunt-shell": "~0.2.2",
     "jasmine-focused": "~1.x",
-    "rimraf": "~2.1.4",
     "node-cpplint": "~0.1.5",
-    "grunt-coffeelint": "0.0.6"
+    "rimraf": "~2.1.4"
   },
   "dependencies": {
-    "nan": "2.11.1"
+    "nan": "2.14.0"
   }
 }
